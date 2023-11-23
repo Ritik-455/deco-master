@@ -928,6 +928,9 @@ ul {
         top: -22%;
     }
 
+    .d-2xl-flex {
+        display: flex;
+    }
 
 }
 
@@ -968,4 +971,5 @@ ul {
         top: 31%;
         right: 10.5%;
     }
+    
 }
