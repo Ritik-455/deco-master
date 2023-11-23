@@ -224,7 +224,7 @@ ul {
 }
 
 .min_vh_100 {
-    min-height: 55vh;
+    min-height: 93vh;
 }
 
 .border-none {
@@ -524,11 +524,6 @@ ul {
     cursor: pointer;
 }
 
-.preloader-finish {
-    opacity: 0;
-    transition: 0.5s ease-out;
-    z-index: -5;
-}
 
 #preloader {
     position: fixed;
@@ -538,6 +533,7 @@ ul {
     height: 100vh;
     background-color: transparent;
     backdrop-filter: blur(50px);
+    z-index: 99;
 
 }
 

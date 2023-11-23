@@ -8,6 +8,6 @@ function openNav() {
   setTimeout(() => {
       console.log("Delayed for 1 second.");
       document.body.classList.remove("overflow-hidden");
-      Preloader.classList.add("preloader-finish")
+      Preloader.classList.add("d-none")
   }, 2000);
   
